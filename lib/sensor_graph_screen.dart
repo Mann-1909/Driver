@@ -127,7 +127,7 @@ class _SensorGraphScreenState extends State<SensorGraphScreen> {
                       color: widget.lineColor,
                       barWidth: 3,
                       dotData: const FlDotData(show: false),
-                      belowBarData: BarAreaData(show: true, color: widget.lineColor.withOpacity(0.2)),
+                      belowBarData: BarAreaData(show: true, color: widget.lineColor.withValues(alpha: 30)),
                     ),
                   ],
                 ),
